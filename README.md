@@ -15,9 +15,12 @@ python3_installer.exe /quiet DefaultJustForMeTargetDir=C:\python3 Include_launch
 # create virtualenv in the .venv directory
 python -m venv .venv
 
-# on Windows
+# activate virtualenv on Windows
 .venv\Scripts\activate
 
-# on Linux
+# activate virtualenv on Linux
 source .venv/bin/activate
+
+# deactivate virtualenv
+deactivate
 ```
