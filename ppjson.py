@@ -48,7 +48,7 @@ def get_args():
 
 if __name__ == "__main__":
     ARGS = get_args()
-    ARGS.directory =  ' '.join(ARGS.directory)
+    ARGS.directory = ' '.join(ARGS.directory)
     ARGS.directory = ARGS.directory.rstrip(sep)
     ARGS.directory = ARGS.directory.rstrip('"')  # Path ending with a single '\' may produce '"'
 
