@@ -6,7 +6,7 @@ To setup using PowerShell:
 > cd $env:USERPROFILE\Downloads
 > python -m venv .venv
 > .venv\Scripts\activate
-> pip install --trusted-host files.pythonhosted.org --trusted-host pypi.org pyautogui
+> pip install --trusted-host files.pythonhosted.org --trusted-host pypi.org pyautogui==0.9.53
 > python redbull.py
 """
 import pyautogui
